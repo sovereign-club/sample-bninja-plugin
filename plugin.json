@@ -1,0 +1,28 @@
+{
+    "pluginmetadataversion": 2,
+    "name": "Sample Plugin",
+    "type": ["helper"],
+    "api":  ["python3"],
+
+    "description": "This plugin demonstrates a basic Binary Ninja plugin structure.",
+    "longdescription": "This plugin demonstrates a basic Binary Ninja plugin structure.",
+
+    "license": {
+        "name" : "GPL-3.0",
+        "text": "check LICENSE file at source"
+    },
+
+    "platforms": ["Windows", "Linux", "Darwin"],
+    "installationinstructions": {
+        "Windows": "",
+        "Linux": "",
+        "Darwin": ""
+    },
+
+    "dependencies": {},
+
+    "version": "1.1.6",
+    "author": "mitsuakki",
+
+    "minimumbinaryninjaversion": 0
+}
