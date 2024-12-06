@@ -1,6 +1,6 @@
 {
     "pluginmetadataversion": 2,
-    "name": "Sample Plugin",
+    "name": "eshard",
     "type": ["helper"],
     "api":  ["python3"],
 

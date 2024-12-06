@@ -5,7 +5,7 @@ Sample plugin for Binary Ninja that demonstrates how to run a task in the backgr
 from binaryninja.plugin import BackgroundTaskThread, PluginCommand
 
 class SampleInBackground(BackgroundTaskThread):
-    """
+    """import 
     A class to execute a background task within Binary Ninja.
     """
 
@@ -30,7 +30,7 @@ def sample_in_background(bv):
     bg_task.start()
 
 PluginCommand.register(
-    "Sample Plugin",
+    "eshard",
     "This plugin demonstrates a basic Binary Ninja plugin structure.",
     sample_in_background
 )
